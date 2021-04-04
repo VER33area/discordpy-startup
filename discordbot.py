@@ -19,8 +19,8 @@ async def ping(ctx):
     
     
 @bot.command()
-async def よお(ctx):
-    await ctx.send('こんにちは')
+async def hi(ctx):
+    await ctx.send('HI')
 
 
 bot.run(token)
